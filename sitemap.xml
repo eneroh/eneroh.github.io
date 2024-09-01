@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding=UTF-8?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns=http://www.sitemaps.org/schemas/sitemap/0.9>
   <url>
-	<loc>https://snopoint.com/index.html</loc>
+	<loc>https://snopoint.com/index</loc>
 	<lastmod>2024-09-02</lastmod>
   </url>
   <url>
-	  <loc>https://snopoint.com/blog.html</loc>
+	  <loc>https://snopoint.com/blog</loc>
 	  <lastmod>2024-09-02</lastmod>
   </url>
   <url>
-	  <loc>https://snopoint.com/gallery.html</loc>
+	  <loc>https://snopoint.com/gallery</loc>
 	  <lastmod>2024-09-02</lastmod>
   </url>
   <url>
-	  <loc>https://snopoint.com/changelog.html</loc>
+	  <loc>https://snopoint.com/changelog</loc>
 	  <lastmod>2024-09-02</lastmod>
   </url>
 </urlset>
