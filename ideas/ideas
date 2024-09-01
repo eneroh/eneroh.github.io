@@ -1,0 +1,24 @@
+﻿=== ideas ===
+> php article creation with database
+> javascript array tagline change on refresh
+> no form usage as outdated
+> mailto icon as usual
+> left to right reading therefore, merge nav and icons to top (the business and noise at the top)
+> Creation of low impact but creative snopoint letter specific favicon
+> entire rem/em implementation, vh and vw for viewport block sizing
+> no more usage of px and %
+> For stylings, do not be afraid of gradients, can add a certain panache to design elements
+> potential for logo change on refresh, might have to point back to db or folder and random func to get this to function
+> usage of webp images for faster loading times
+> make website keyboard friendly with tabs (see lukesmith.xyz)
+> DO NOT ADD SOCIAL MEDIA LINKS TO NAV, IT SUCKS
+> ADD A CALL TO ACTION LIKE MAIL TO, TO THE NAVRIGHT ELEMENT
+
+BASIC DESIGN:
+> NAV IS ALWAYS VISIBLE, CTA IN TOP RIGHT
+> 3 MOST IMPORTANT PRODUCTS/SERVICES
+> 
+> WHO ARE YOU
+> WHAT CAN YOU DO?
+> HOW CAN YOU HELP ME?
+CALL TO ACTION

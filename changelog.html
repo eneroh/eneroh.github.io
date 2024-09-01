@@ -1,0 +1,87 @@
+12 Aug 2024
+- Creation of html and styles.css pages
+- linking via link rel and href tags
+- copying of some minor design elements from previous project
+- changelog file created
+- addition of nav element
+- addition of header and footer elements
+
+14 Aug 2024
+- Creation of paint based index page template designs (mobile and normal) and placed into ideas folder
+
+26 Aug 2024
+- Serious time investment into developing design language for logo and the like
+- Additions to inspiration and ideas document etc.
+- Research into font faces and developing logo designs performed
+- Several font faces are determined and logo designs are created
+- Added designs to website for review
+- Next steps would consist of choosing the best font faces and maintaining the designs overall
+- svg logo made
+- Learned a lot in app: Inkscape
+- Creating svg's or scalable vector graphics requires node contact otherwise your background bleeds into your graphic. Lots of intricasies with svg's I was previously unaware of
+
+27 Aug 2024
+- Creation of nav w/ ul and li elements (no extra formatting yet)
+- svg logo added to nav element
+- a href added to nav
+- a href ease-in and ease-out color fade transitions for nav specific elements i.e. a:hover
+- implementation of floats left and right for nav elements + reversal and removal of floats
+- Remembered that grid and flexbox exist, attempting to see if implementation of these new elements can simplify nav elements
+- grid implementation for nav specific class: headergrid
+- reversal and removal of grid layout for nav
+- implementation of flexbox for nav specific class: headerflex
+- reversal and removal of grid layout
+- active href nav element color element
+- thinking that if I want a modern website design implementation of both grids and flexboxes will be necessary
+- Grids for setting out the nav, then flexbox for responsiveness for navigation. Then for the main body for the website, it will just be grids with some implementation of flexboxes
+- With the way web development is now, removal of floats appears to be the way to go
+
+28 Aug 2024
+- Implementation of mobile navbar elements
+- Hover feature repaired, aria-label (accessibility junk) was messing up some classes, fixed .active in particular
+- @medias are good to go, had 5 initially and was slowly adding to them but I've brought the total @media's to 2-3. Way more smoother when inspect elementing and seeing pixels
+- 1 thing I am extremely big on now is the ability to tab through webpages with your keyboard, I don't have this functionality in my current website and the redesign is also lacking this functionality. I'll need to sort that out
+- The navbar is reaching the final design phase and it's looking really solid
+- I still haven't sorted out my rem and em and vh knowledge yet, will need to sort this out before continuing further in this project
+- Some weird navbar glitches: the display flex property in nav li was seriously messing with the display block for the mobile navbar. This was resolved
+- Incorporating two different display elements is complex and requires intricate handling of inspect element to spot these bugs, really annoying but getting the hang
+- Issue with padding noted in display: block. Another issue with nav li/ul where padding was present and messing up padding in the mobile nav. Resolved as well. Inspect element saved me there too
+- Removed outline: 0; in wildcard element in the css
+- Keyboard functionality works on website woohoo!
+
+29 Aug 2024
+Messing around with navbar
+
+30 Aug 2024
+- Both the normal and mobile navbar are completely done
+- CTA (Call to action button) added as well
+- I've gained a solid understanding of nth-child and last-child css elements
+- The font-awesome fa-solid fa-envelope icon was giving me stress because it made the other nav items misalign with the other nav content but was resolved soonafter with this: align-items: center; in headerflex. Everything was resolved soonafter
+- CTA formatting was messy but got it resolved
+- Mobile navbar formatting was also messy but referred to my current site's mobile navbar to build inspiration
+- I made the mobile navbar entirely in the @media 600px for this instance, different from my original
+- I also added much more customisations from my design inspirations. Like changing colors from active elements and inactive elements to make it more clearer which is active and which isn't
+- Added snopoint text logo next to the actual snopoint s logo in .navleft
+- Removed borders around nav elements now, no longer need the guidelines as it's completely done and looks awesome
+- Now to move onto the body, likely will need grid layout, hero section and actual meaningful content. What snopoint is, what snopoint does, how to contact the administrator etc.
+- The hero section is completely finished
+- I've created the hero image from scratch, a sort topographical map with gridlines in place to resemble some of game board/military command screen. Sort of relates to cybersecurity in a way. Something you might see in a SOC
+- I've also gone through several failed iterations of the hero section. But I did end up getting to a design that I really like
+- I've received some feedback from some stakeholders and they've said that my designs are good. The s logo is a bit tiny in the nav, should be an easy fix. Along with the hero section text, stakeholders stated that the text is  a bit hard to read. So implementation of a background may be suitable. Polled my stakeholders for their opinions. Will figure it out from there.
+- Next steps consist of: Adding the main content, what is snopoint, origins, who I am etc.
+- I think once the main page is completed, I will update my github with this new design and put the old design into archive
+- For main content as well, having difficulties choosing between grid and flexbox layouts. I think with how my brain works I'll need to test both and whichever is suited for what I want will be the final design
+- Exciting times, I've created many drafts and tried many iterations. I'll likely be creating a gallery of sorts displaying these failed iterations/drafts at some stage. Something like: snopoint.com/gallery
+
+31 Aug 2024
+- There were some noticable issues with resizing on desktop and mobile versions. Due to not having correctly implemented vw and vh in many elements within css. Viewpoint width and viewport height. With both of them now correctly implemented across multiple different css elements. Everything is incredible, resizing-wise in both mobile and on pc.
+- I've also completed the implementation of a full-size nav. position: fixed and z-indexes were necessary but ultimately hides the massive poop that occurs with position absolute elements i.e. the hero section items. Very messy but ultimately will make the experience smoother for the user. The idea for this was directly from w3schools and their mobile navbar. Who better to take from than your teacher? lmao
+- I've also created an alternate herologo because the background-image I've implemented in the css for the main herologo is a total mess for resizing. Therefore, I've added the alternate TEXT version. Dealing with images on images is wayyyyyy more complex than what needs to be
+- paragraphs vs br (line breaks), I've come to the determination that paragraphs and br's are total messes in relation to spacing between words. Instead implementation of line-height is much better in accomplishing the same task as both p and br, at least I find.
+- Also reviewing the w3schools site, I noted that resizing in both mobile and desktop website layouts. There is absolutely no compromise on quality. I was just about to throw in the towel with a really bad design that worked but resizing via desktop was AWFUL. Instead, I hung in there and fixed all the desktop resizing issues, all because w3schools makes no compromises in its design. I'm not sure but the perfectionist in me is pounding their chest. While the lazy me, just wants rest. That rhymed... Unintentionally.
+- vw (viewport width) issues were constantly plaguing me in the chrome browser. Causing a horizontal scrollbar to appear in the chrome browser. Firefox had no issues but the fix to resolve this was not decreasing the vw from 100vw to 98.6vw. The fix was: to maintain the 100vw in width and to add to html: overflow-x: hidden;. The more you know, I guess.
+- I've added the text content for the index.html that will be the final portion that needs formatting before I publish the revamp on my github
+- Added .svg to website icon, no issues noted
+- Extra sizing issues with with nav, hero section and maincont, resolved by clearing out herologo background image and replacing with text. Like the mobile hero text alternative
+- Again we are going to images on images having serious issues, never do this again. *Note to self* keep it simple, having complexity like images on images makes life really difficult
+- 
