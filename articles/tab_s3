@@ -14,40 +14,39 @@
 
 --- procedure ---
 1. set up workspace
-> cd Downloads
-> mkdir tab_s3
+[cd Downloads]
+[mkdir tab_s3]
 
 2. Gather required materials
-> sudo pacman -S libusb libusb-compat
-> twrp ~3.7.0
+[sudo pacman -S libusb libusb-compat]
 > Visit: https://xdaforums.com/t/rom-unofficial-14-eas-ota-sm-t820-sm-t825-2024-3-9-lineageos-21-for-galaxy-tab-s3.4660924/
 > Download the lineageos 21 and twrp 3.7.0 files
-> cd Downloads
-> tar -xvf twrp tar file
-> git clone https://github.com/Benjamin-Dobell/Heimdall
-> cd Heimdall
+[cd Downloads]
+[tar -xvf twrp tar file]
+[git clone https://github.com/Benjamin-Dobell/Heimdall]
+[cd Heimdall]
 *Note DO NOT UNZIP the lineageos file
 
 3. Read procedure present in files
-> cd Linux
-> cat README
-> mkdir build
-> cd build
-> make
-> sudo make install
+[cd Linux]
+[cat README]
+[mkdir build]
+[cd build]
+[make]
+[sudo make install]
 
-4. Utilizing heimdall terminal and you tab s3
+4. Utilizing heimdall terminal and your tab s3
 *Note do not try frontend, it's busted
 *Recovery must be caps
 > place your tab_s3 into download mode by holding the power button and menu/home button at the same time
-> heimdall --flash --RECOVERY recovery.img
+[heimdall --flash --RECOVERY recovery.img]
 
 5. TWRP recovery time
 > Power off your device entirely
 > On your tab_s3, press and hold your power button, volume up and menu/home button at the same time
-> You will not enter your recovery
+> You will now enter your recovery
 > Format your device by clicking the format button on your screen
 > Return to main menu for TWRP and then select ADB sideload
-> adb sideload ~/Downloads/lineageos_.zip
+[adb sideload ~/Downloads/lineageos_.zip]
 > Once completed successfully, reboot your device
 > Dinner is served
