@@ -225,6 +225,13 @@ main {
 }
 
 /* changelog divs */
+
+main #clmain {
+	margin: 0 20% 0 20%;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
 main #clmain ul li {
 	list-style-type: disc;
 	padding-left: 5%;
@@ -391,6 +398,10 @@ footer a:hover {
 	}
 
 	.maincont {
+		margin: 0;
+	}
+
+	#clmain {
 		margin: 0;
 	}
 }
