@@ -225,6 +225,12 @@ main {
 	padding-top: 5%;
 }
 
+/* changelog divs */
+main .clmain ul li {
+	list-style-type: disc;
+}
+	
+
 /* footer */
 
 .footermain {
