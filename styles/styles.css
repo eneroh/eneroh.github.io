@@ -137,6 +137,7 @@ main {
 	flex-wrap: wrap;
 	align-self: auto;
 	align-content: normal;
+	flex-direction: column;
 }
 
 .maincont {
