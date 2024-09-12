@@ -226,13 +226,13 @@ main {
 
 /* changelog divs */
 
-main #clmain {
+main .clmain {
 	margin: 0 20% 0 20%;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 }
 
-main #clmain ul li {
+main .clmain ul li {
 	list-style-type: disc;
 	padding-left: 5%;
 }
