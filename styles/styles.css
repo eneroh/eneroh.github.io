@@ -226,7 +226,7 @@ main {
 }
 
 /* changelog divs */
-main .clmain ul li {
+main #clmain ul li {
 	list-style-type: disc;
 }
 	
