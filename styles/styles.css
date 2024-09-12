@@ -234,6 +234,9 @@ main .clmain {
 
 main .clmain ul li {
 	list-style-type: disc;
+}
+
+main .clmain ul {
 	padding-left: 5%;
 }
 	
