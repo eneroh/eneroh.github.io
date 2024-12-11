@@ -226,18 +226,18 @@ main {
 /* gallery divs */
 
 .gallerygrid {
-	margin: 3% 5%;
+	margin: 5%;
 }
 
 .gallerygrid img {
 	width: 100%;
-	max-width: 25%;
-	transform: transform 0.5s ease-in-out;
-	padding: 0.5%;
+	max-width: 30%;
+	transform: transform 0.5s;
+	padding: 5% 1.5% 0% 1.5%; /* t r b l */
 }
 
 .gallerygrid img:hover {
-	transform: scale(1.5); 
+	transform: scale(1.2); 
 }
 
 /* changelog divs */
