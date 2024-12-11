@@ -225,8 +225,17 @@ main {
 
 /* gallery divs */
 
+.gallerygrid {
+	margin: 3% 5%;
+}
+
 .gallerygrid img {
 	max-width: 25%;
+	transform: transform 0.5s ease-in-out;
+}
+
+.gallerygrid img:hover {
+	transform: scale(1.5); 
 }
 
 /* changelog divs */
