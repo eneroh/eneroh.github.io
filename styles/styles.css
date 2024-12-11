@@ -233,6 +233,7 @@ main {
 	width: 100%;
 	max-width: 25%;
 	transform: transform 0.5s ease-in-out;
+	padding: 5%;
 }
 
 .gallerygrid img:hover {
