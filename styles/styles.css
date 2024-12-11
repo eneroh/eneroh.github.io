@@ -426,8 +426,13 @@ footer a:hover {
 
 	.gallerygrid img {
 		margin: 0;
-		padding: 0;
+		padding-top: 5%;
+		padding-bottom: 5%;
 		width: 100%;
 		max-width: 100%;
+	}
+
+	.gallerygrid img:hover {
+		transform: scale(1.0);
 	}
 }
