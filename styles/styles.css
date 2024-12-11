@@ -223,6 +223,12 @@ main {
 	padding-top: 5%;
 }
 
+/* gallery divs */
+
+.gallerygrid img {
+	max-width: 25%;
+}
+
 /* changelog divs */
 
 main .clmain {
