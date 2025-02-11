@@ -4,7 +4,7 @@ Windows managers vs desktop environments
 
 Typically window managers are lightweight, very efficient and extremely customisable ways to navigate an operating system. However, they are incomplete. Everything must be done via terminal or by broken/inconsistent/weird looking gui menus that do not match what style you are trying to configure.
 
-It's this inconsistency that you spend so much time to resolve, all in hopes to make your window manager experience more enjoyable. But to access specific things, you have to ultimately need to use the the desktop environment version.
+It's this inconsistency that you spend so much time to resolve, all in hopes to make your window manager experience more enjoyable. But to access specific things, you have to ultimately use the the desktop environment version.
 
 Pavucontrol for instance is a big one, sound is big in every os.
 Networking is also very important and you'll need to use nm-tui or an equivalent which even though you aren't trapped in a desktop environment. It still kind of sucks.
