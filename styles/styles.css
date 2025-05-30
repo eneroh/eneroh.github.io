@@ -260,7 +260,7 @@ main {
 /* changelog divs */
 
 main .clmain {
-	margin: 0 20% 0 20%;
+	margin: 10% 20% 0 20%;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 }
@@ -455,7 +455,7 @@ footer a:hover {
 	}
 
 	main .clmain {
-		margin: 0;
+		margin: 10% 5% 0% 2%;
 	}
 
 	.blogcont {
