@@ -461,7 +461,11 @@ footer a:hover {
 	.blogcont {
 		margin: 5%;
 	}
-
+	
+	.gallerygrid {
+		margin: 10% 5% 0% 2%;
+	}
+	
 	.gallerygrid img {
 		margin: 0;
 		padding-top: 5%;
