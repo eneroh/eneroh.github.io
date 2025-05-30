@@ -239,7 +239,10 @@ main {
 	padding-bottom: 5vh;
 }
 
-
+.blogmain li {
+	text-decoration: none;
+	color: #33bbff;
+}
 
 /* gallery divs */
 
@@ -455,7 +458,7 @@ footer a:hover {
 	}
 
 	main .clmain {
-		margin: 10% 5% 0% 2%;
+		margin: 2% 5% 0% 2%;
 	}
 
 	.blogcont {
