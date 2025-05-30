@@ -242,10 +242,12 @@ main {
 .blogmain li a {
 	text-decoration: none;
 	color: #33bbff;
+	margin: 0% 0% 0% 5%;
 }
 
 .blogmain li {
 	list-style-type: none;
+	mar
 }
 
 /* gallery divs */
@@ -470,7 +472,8 @@ footer a:hover {
 	}
 	
 	.gallerygrid {
-		margin: 10% 5% 0% 2%;
+		margin: 6vh 6vw 0vw 4vw;
+		padding-bottom: 5vh;
 	}
 	
 	.gallerygrid img {
