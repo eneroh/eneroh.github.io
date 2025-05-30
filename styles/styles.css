@@ -256,13 +256,13 @@ main {
 }
 
 .gallerygrid img {
-	width: 100%;
-	max-width: 30%;
-	padding: 5% 1.5% 0% 1.5%; /* t r b l */
+	width: 80%;
+	max-width: 100%;
+	padding: 2% 0% 2% 10%; /* t r b l */
 }
 
 .gallerygrid img:hover {
-	transform: scale(1.2); 
+	/*transform: scale(1.2);*/
 }
 
 /* changelog divs */
