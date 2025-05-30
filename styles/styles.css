@@ -239,7 +239,7 @@ main {
 	padding-bottom: 5vh;
 }
 
-.blogmain li {
+.blogmain li a {
 	text-decoration: none;
 	color: #33bbff;
 }
