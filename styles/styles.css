@@ -252,7 +252,11 @@ main {
 /* gallery divs */
 
 .gallerygrid {
-	margin: 5%;
+	/*margin: 5%;*/
+}
+
+.gallerygrid h2 {
+	margin: 0% 0% 0% 10%;
 }
 
 .gallerygrid img {
@@ -267,7 +271,7 @@ main {
 
 /* changelog divs */
 
-.clmain {
+.clcont {
 	margin: 0% 20% 0 20%;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
@@ -462,28 +466,36 @@ footer a:hover {
 		margin: 5%;
 	}
 
-	.clmain {
+	.clcont {
 		margin: 5%;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
 	}
 
 	.blogcont {
 		margin: 5%;
-	}
-	
-	.gallerygrid {
-		margin: 6vh 6vw 0vw 4vw;
+		padding-top: 5vh;
 		padding-bottom: 5vh;
 	}
 	
+	.gallerygrid {
+		margin: 5%;
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+
+	.gallerygrid h2 {
+		margin: 0;
+	}
+
 	.gallerygrid img {
 		margin: 0;
-		padding-top: 5%;
-		padding-bottom: 5%;
 		width: 100%;
 		max-width: 100%;
+		padding: 5% 0% 0% 0%;
 	}
 
 	.gallerygrid img:hover {
-		transform: scale(1.0);
+		/*transform: scale(1.0);*/
 	}
 }
