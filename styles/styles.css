@@ -247,6 +247,11 @@ main {
 
 .blogmain li {
 	margin-left: 5%;
+	list-style-type: none;
+}
+
+.articlemain li {
+	margin-left: 5%;
 }
 
 /* gallery divs */
