@@ -1,0 +1,206 @@
+<html lang=en>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blog - Snopoint</title>
+		<link rel="stylesheet" href="../styles/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+		<link rel="icon" type="image/x-icon" href="../images/logos/favicon.ico">
+	</head>
+	<body>
+	<div class="wrapper">
+		<header>
+			<nav aria-label="primary menu">
+			<div class="headerflex">
+				<div class="navleft">
+					<img src="../ideas/logos/drawing_outline_removed.svg" width="50px">
+					<!--<img src="ideas/fonts/snopoint_logo_4.png" width="100px">-->
+				</div>
+				<div class="navmobcont">
+					<div id=mobilenav>
+						<div id="mobilelogo">
+							<img src="../ideas/logos/drawing_outline_removed.svg" width="50px">
+							<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+								<!--<i class="fa-solid fa-bars"></i>-->Menu</a>
+						</div>
+						<div id="navlinks">
+							<a href="/index">Home</a>
+							<a href="/blog" class="current" aria-current="current">Blog</a>
+							<a href="/gallery">Gallery</a>
+							<a href="/changelog">Changelog</a>
+						</div>
+					</div>
+				</div>
+				<div class="navright">
+					<ul>
+						<li><a href="/index">Home</a></li>
+						<li><a href="/blog" class=active aria-current="current">Blog</a></li>
+						<li><a href="/gallery">Gallery</a></li>
+						<li><a href="/changelog">Changelog</a></li>
+						<li><a href="mailto:kaolininduce@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			</nav>
+		</header>
+		<main>
+			<article>
+			<section class="blogcont">
+				<div class="articlemain">
+<h1>project - piKvm diy</h1>
+
+<h2>Intro</h2>
+If you need out-of-band management/IPMI (Intelligent platform management interface) for a custom server build, look no further than the piKVM.
+<br>
+<br>
+Typically IPMI costs a pretty penny (see server grade motherboards) but with this solution, no crazy additional costs are necessary. Just slightly more responsibility and care is needed with this solution i.e. maintaining the pi + software updates
+<br>
+<br>
+For this instance, the SBC necessary will be a Raspberry pi 4 - 2gb
+
+
+<h2>Items required</h2>
+<table>
+<tr>
+	<th>No.</th>
+	<th>Item</th>
+	<th>Name</th>
+	<th>Price</th>
+	<th>Bought</th>
+	<th>Vendor</th>
+</tr>
+<tr>
+	<th>1</th>
+	<td>SBC</td>
+	<td>RPI4 2GB</td>
+	<td>76.76</td>
+	<td>TRUE</td>
+	<td>amazon</td>
+</tr>
+<tr>
+	<th>2</th>
+	<td>USBC Splitter</td>
+	<td></td>
+	<td>16.95</td>
+	<td>TRUE</td>
+	<td>amazon</td>
+</tr>
+<tr>
+	<th>3</th>
+	<td>HDMI to CSI2 adaptor</td>
+	<td></td>
+	<td>35.99</td>
+	<td>TRUE</td>
+	<td>amazon</td>
+</tr>
+<tr>
+	<th>4</th>
+	<td>sd card 32GB</td>
+	<td>sandisk ext. plus 32gb</td>
+	<td>23.00</td>
+	<td>TRUE</td>
+	<td>jb_hifi</td>
+</tr>
+<tr>
+	<th>5</th>
+	<td>usbc to usba</td>
+	<td></td>
+	<td>14.95</td>
+	<td>TRUE</td>
+	<td>amazon</td>
+</tr>
+<tr>
+	<th>6</th>
+	<td>usbc to usbc</td>
+	<td></td>
+	<td>14.95</td>
+	<td>TRUE</td>
+	<td>amazon</td>
+</tr>
+<tr>
+	<th>7</th>
+	<td>usbc female to usba male</td>
+	<td></td>
+	<td>17.00</td>
+	<td>TRUE</td>
+	<td>jb hifi</td>
+</tr>
+<tr>
+	<th>8</th>
+	<td colspan="5">pc/laptop</td>
+</tr>
+<tr>
+	<th>9</th>
+	<td colspan="5">terminal</td>
+</tr>
+<tr>
+	<th>10</th>
+	<td colspan="2">instructions</td>
+	<td colspan="3">see docs.pikvm.org</td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+	<th></th>
+	<th>Item</th>
+	<th colspan="4">Price</th>
+</tr>
+<tr>
+	<th>Total</th>
+	<td>10 items</td>
+	<td colspan="4">199.60</td>           
+</tr>
+<tr>
+	<th>Actual product</th>
+	<td>PiKVM V4 Plus</td>
+	<td colspan="4">594.95</td>           
+</tr>
+</table>
+<br>
+<table>
+<tr>
+	<th>Price diff</th>
+	<td colspan="5">395.35</td>
+</tr>
+</table>
+<br>
+<h2>Procedure</h2>
+<ol>
+	<li>Depending on video platform, download the correct files</li>
+	<li>Within your terminal, unpack files</li>
+	<code>xz --decompress v2-hdmi-rpi4-latest.img.xz</code>
+	<li>Ensure your sd card is connected to your machine</li>
+	<li>Utilizing dd, input the following command to prepare your sd card for booting</li>
+	<code>sudo dd if=v2-hdmi-rpi4-latest.img of=/dev/mmcblkX</code>
+	<li>Once completed, perform tests with rpi4</li>
+</ol>
+
+<h2>Notes</h2>
+<ul>
+	<li>If using hdmi-to-cs2 bridge, ensure that cable is connected correctly (review images online for reference)</li>
+	<li>https://github.com/pikvm/pikvm#diy-getting-started for more relevant information</li>
+	<li>Limitations in components and the device itself make framerate not the best but it is definitely manageable</li>
+	<li>The device needs an IP address and the piKVM gui is accessible over the browser</li>
+	<li>May be handy setting a dns name and static IP instead of DHCP'ing it</li>
+	<li>https://docs.pikvm.org/v2/#setting-up-the-hardware - Necessary in procedure</li>
+	<li>Ensure you select the correct files to proceed, separation by DIY and full product, as well as with: hdmi-to-cs2 and usb based hdmi video</li>
+	<li> This device is called a DIY PiKVM V2</li>
+	<li>The official device sold by pikvm has additional features but not 100% necessary. Also costs a lot more.</li>
+				</div>
+			</section>
+			</article>
+		</main>
+	</div>
+	<script>
+	function myFunction() { 
+	  var x = document.getElementById("navlinks"); 
+	  if (x.style.display === "block") { 
+	    x.style.display = "none"; 
+	    } else { 
+	    x.style.display = "block"; 
+	  } 
+	}
+	</script>
+	</body>
+</html>

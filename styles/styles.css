@@ -11,7 +11,7 @@ html {
 	border: 0;
 	vertical-align: baseline;
 	background: transparent;
-	font-family: sans-serif;
+	font-family: sans-serif, monospace;
 	font-size: 1rem;
 }
 
@@ -44,6 +44,23 @@ h2 {
 
 h3 {
 	font-size: 1.2rem;
+}
+
+hr {
+	width: 100%;
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+code {
+	padding: 0.75%;
+	font-style: italic;
+	font-family: courier new, monospace;
 }
 
 .headerflex .icon {
@@ -251,6 +268,35 @@ main {
 
 .articlemain li {
 	margin-left: 5%;
+}
+
+.articlemain table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.articlemain tr {
+	padding-top: 5px;
+	border-top: 1px solid #a9a9a9;
+	border-bottom: 1px solid #a9a9a9;
+}
+
+.articlemain table tr:nth-child(1) {
+	background-color: #a9a9a9;
+	color: #000;
+}
+
+.articlemain th {
+	text-align: left;
+}
+
+.articlemain tr,th,td {
+	padding: 1.25%;
+}
+
+.articlemain tr:hover {
+	background-color: #171432;
 }
 
 /* gallery divs */
@@ -482,6 +528,10 @@ footer a:hover {
 		padding-bottom: 5vh;
 	}
 	
+	.articlemain tr:hover {
+		color: #f4f4f4;
+		background-color: #171421; 
+}
 	.gallerygrid {
 		margin: 5%;
 		padding-top: 5vh;
