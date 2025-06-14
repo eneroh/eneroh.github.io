@@ -125,9 +125,11 @@ nav .navright a:hover, a:active .active {
 
 nav .navleft {
 	text-align: center;
+	line-height: 0; /* required for maintaining nav */
 }
 
 nav .navright {
+	line-height: 0; /* required for maintaining nav */
 }
 
 nav .navright a:hover:not(.active) {
