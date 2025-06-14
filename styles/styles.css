@@ -109,7 +109,7 @@ nav ul li:last-child a:hover:not(.active) {
 nav ul li a {
 	color: #a9a9a9;
 	text-decoration: none;
-	padding: 8px 20px;
+	padding: 8.5px;
 }
 
 nav ul a:hover {
@@ -125,11 +125,9 @@ nav .navright a:hover, a:active .active {
 
 nav .navleft {
 	text-align: center;
-	line-height: 0;
 }
 
 nav .navright {
-	line-height: 0;	
 }
 
 nav .navright a:hover:not(.active) {
