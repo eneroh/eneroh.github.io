@@ -1,11 +1,12 @@
+
 <html lang=en>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Blog - Snopoint</title>
-		<link rel="stylesheet" href="styles/styles.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-		<link rel="icon" type="image/x-icon" href="images/logos/favicon.ico">
+		<link rel="stylesheet" href="../styles/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+		<link rel="icon" type="image/x-icon" href="../images/logos/favicon.ico">
 	</head>
 	<body>
 	<div class="wrapper">
@@ -13,18 +14,18 @@
 			<nav aria-label="primary menu">
 			<div class="headerflex">
 				<div class="navleft">
-					<img src="ideas/logos/drawing_outline_removed.svg" width="50px">
+					<img src="../ideas/logos/drawing_outline_removed.svg" width="50px">
 					<!--<img src="ideas/fonts/snopoint_logo_4.png" width="100px">-->
 				</div>
 				<div class="navmobcont">
 					<div id=mobilenav>
 						<div id="mobilelogo">
-							<img src="ideas/logos/drawing_outline_removed.svg" width="50px">
+							<img src="../ideas/logos/drawing_outline_removed.svg" width="50px">
 							<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 								<!--<i class="fa-solid fa-bars"></i>-->Menu</a>
 						</div>
 						<div id="navlinks">
-							<a href="https://snopoint.com">Home</a>
+							<a href="/index">Home</a>
 							<a href="/blog" class="current" aria-current="current">Blog</a>
 							<a href="/gallery">Gallery</a>
 							<a href="/changelog">Changelog</a>
@@ -33,30 +34,30 @@
 				</div>
 				<div class="navright">
 					<ul>
-						<li><a href="https://snopoint.com">Home</a></li>
-						<li><a href="/blog" class="active" aria-current="current">Blog</a></li>
+						<li><a href="/index">Home</a></li>
+						<li><a href="/blog" class=active aria-current="current">Blog</a></li>
 						<li><a href="/gallery">Gallery</a></li>
 						<li><a href="/changelog">Changelog</a></li>
-						<!--<li><a href="/text">text</a></li>-->
-						<!--<li><a href="mailto:kaolininduce@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>-->
+						<li><a href="mailto:kaolininduce@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
 					</ul>
 				</div>
 			</div>
 			</nav>
 		</header>
+		<main>
+			<article>
+			<section class="blogcont">
+				<div class="articlemain">
+<h2>Modern table design</h2>
+
+You know, after doing some research into modern table design I've realised just how bland and corporatised
+
+
+				</div>
+			</section>
+			</article>
+		</main>
 	</div>
-	<main>
-		<section class="blogcont">
-			<div class="blogmain">
-				<h2>Articles</h2>
-				<ul>
-					<li><a href="articles/comfort_vs_truth">comfort vs truth</a></li>
-					<li><a href="articles/why_thinkpads_kind_of_suck">why thinkpads kind of suck</a></li>
-					<li><a href="articles/piKvm_diy">piKvm diy</a></li>
-				</ul>
-			</div>
-		</section>
-	</main>
 	<script>
 	function myFunction() { 
 	  var x = document.getElementById("navlinks"); 
@@ -69,4 +70,3 @@
 	</script>
 	</body>
 </html>
-
