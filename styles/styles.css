@@ -1,4 +1,4 @@
-﻿//* styles.css */
+﻿/* styles.css */
 
 html {
 	font-size: 16px;
@@ -216,6 +216,7 @@ main {
 	flex-direction: column;
 	background-image: url('/images/hero_image_4_final_lossless.webp');
 	background-repeat: no-repeat;
+	/*background-image: linear-gradient(90deg,#171421 0%,#171421 35%,#077eff 100%);*/
 	width: auto;
 	height: 100vh;
 	background-size: cover;
@@ -252,6 +253,7 @@ main {
 	line-height: 1.8;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
+	height: 100vh;
 }
 
 .blogmain li a {
@@ -363,7 +365,7 @@ main .clmain ul {
 }
 
 .content {
-	padding: 0 18px;
+	padding: 2.5vh 2.5vw;
 	display: none;
 	overflow: hidden;
 }
