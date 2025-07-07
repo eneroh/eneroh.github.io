@@ -379,7 +379,7 @@ main .clmain ul {
 	vertical-align: middle;
 	text-align: center;
 	font-size: 1rem;
-	width: 100%;
+	width: auto;
 }
 
 footer a {
