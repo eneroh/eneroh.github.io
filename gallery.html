@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">--> <!--BREAKS EVERYTHING-->
+		<meta name="theme-color" content="#00cc66">
+		<meta name="rating" content="General">
+		<meta name="subject" content="Gallery">
+		<meta name="description" content="Displays the image gallery">
+		<meta name="robots" content="index,follow">
+		<meta name="googlebot" content="index,follow">
+		<title>Gallery - eneroh.com</title>
+		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+		<link rel="icon" type="image/x-icon" href="images/logos/favicon.ico">
+	</head>
+	<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+			<div class="headerflex">
+				<div class="navleft">
+					<img src="ideas/logos/drawing_outline_removed.svg" width="50px">
+					<!--<img src="ideas/fonts/snopoint_logo_4.png" width="100px">-->
+				</div>
+				<div class="navmobcont">
+					<div id=mobilenav>
+						<div id="mobilelogo">
+							<img src="ideas/logos/drawing_outline_removed.svg" width="50px">
+							<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<!--<i class="fa-solid fa-bars"></i>-->Menu</a>
+						</div>
+						<div id="navlinks">
+							<a href="https://snopoint.com">Home</a>
+							<a href="/blog">Blog</a>
+							<a href="/gallery" class="current">Gallery</a>
+							<a href="/changelog">Changelog</a>
+						</div>
+					</div>
+				</div>
+				<div class="navright">
+					<ul>
+						<li><a href="https://snopoint.com">Home</a></li>
+						<li><a href="/blog">Blog</a></li>
+						<li><a href="/gallery" class="active">Gallery</a></li>
+						<li><a href="/changelog">Changelog</a></li>
+						<!--<li><a href="/<text>">text</a></li>-->
+						<!--<li><a href="mailto:kaolininduce@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>-->
+					</ul>
+				</div>
+			</div>
+			</nav>
+		</header>
+		<main>
+		<section id="gallerymain">
+			<div class="gallerygrid">
+				<h2>Gallery</h2>
+				<img src="ideas/font face updates.png" alt="font face image ideas" href="https://snopoint.com/ideas/font%20face%20updates.png"/>
+				<img src="ideas/index_layout.png" alt="index page layout" href="https://snopoint.com/ideas/index_layout.png"/>
+				<img src="ideas/index_layout_mobile.png" alt="mobile index page layout" href="https://snopoint.com/ideas/index_layout_mobile.png"/>
+				<img src="ideas/snopoint_logo_ideas.png" alt="snopoint logo ideas" href="https://snopoint.com/ideas/snopoint_logo_ideas.png"/>
+				<img src="ideas/hero_section/hero_image_implementation_failed_1.png" alt="failed desktop hero section implementation image" href="https://snopoint.com/ideas/hero_section/hero_image_implementation_failed_1.png"/>
+				<img src="ideas/hero_section/hero_image_implementation_failed_mobile_view_1.png" alt="failed mobile hero section implementation image" href="https://snopoint.com/ideas/hero_section/hero_image_implementation_failed_mobile_view_1.png"/>
+				<img src="ideas/hero_section/hero_section_draft_1.png" alt="hero section draft image 1" href="https://snopoint.com/ideas/hero_section/hero_section_draft_1.png"/>
+				<img src="ideas/hero_section/hero_section_draft_2.png" alt="hero section draft image 2" href="https://snopoint.com/ideas/hero_section/hero_section_draft_2.png"/>
+				<img src="ideas/fonts/snopoint_logo_2.png" alt="snopoint logo 2 font face image" href="https://snopoint.com/ideas/fonts/snopoint_logo_2.png"/>
+				<img src="ideas/fonts/snopoint_logo_3.png" alt="snopoint logo 3 font face image" href="https://snopoint.com/ideas/fonts/snopoint_logo_3.png"/>
+				<img src="ideas/fonts/snopoint_logo_4.png" alt="snopoint logo 4 font face image" href="https://snopoint.com/ideas/fonts/snopoint_logo_4.png"/>
+				<img src="ideas/fonts/snopoint_logo.png" alt="primary snopoint logo font face image" href="https://snopoint.com/ideas/fonts/snopoint_logo.png"/>
+				<img src="ideas/2nd_iteration_1.png" alt="image 1 from 2nd iteration snopoint webpage" href="https://snopoint.com/ideas/2nd_iteration_1.png"/>
+				<img src="ideas/2nd_iteration_2.png" alt="image 2 from 2nd iteration snopoint webpage" href="https://snopoint.com/ideas/2nd_iteration_2.png"/>
+				<img src="ideas/2nd_iteration_3.png" alt="image 3 from 2nd iteration snopoint webpage" href="https://snopoint.com/ideas/2nd_iteration_3.png"/>
+				<img src="ideas/2nd_iteration_4.png" alt="image 4 from 2nd iteration snopoint webpage" href="https://snopoint.com/ideas/2nd_iteration_4.png"/>
+				<img src="ideas/previous_mobile_navbar_1.png" alt="Previous mobile navbar image 1"/>
+				<img src="ideas/previous_mobile_navbar_2.png" alt="Previous mobile navbar image 2"/>
+				<img src="ideas/w3_css_validation_1.png" alt="w3 validation image for css, all resolved"/>
+			</div>
+		</section>
+		</main>
+		<footer>
+			<div class="footermain">
+			<a href="https://github.com/eneroh/" class="icon"><i class="fa-brands fa-github fa-2x"></i></a>
+			<a href="mailto:kaolininduce@gmail.com" class="icon"><i class="fa-solid fa-envelope fa-2x"></i></a>
+			<br>
+			</div>
+		</footer>
+	</div>
+	<script>
+	function myFunction() { 
+	  var x = document.getElementById("navlinks"); 
+	  if (x.style.display === "block") { 
+	    x.style.display = "none"; 
+	    } else { 
+	    x.style.display = "block"; 
+	  } 
+	}
+	</script>
+	</body>
+</html>
