@@ -260,14 +260,21 @@ main {
 	height: 100vh;
 }
 
-.blogmain li a {
+.blogmain ul li a {
 	text-decoration: none;
-	color: #06F9A0;
+	list-style-type: none;
+	color: #f4f4f4;
 	margin: 0% 0% 0% 5%;
+}
+
+.blogmain li a:hover {
+	color: #04AA6D;
+	transition: background, color 0.5s ease-out, box-shadow 0.5s ease-out;
 }
 
 .blogmain li {
 	list-style-type: none;
+	text-decoration: none;
 }
 
 .articlemain li {
