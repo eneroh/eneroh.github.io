@@ -22,8 +22,9 @@
 # Disallow crawling of single web page
 #User-agent: *
 #Disallow: /articles/comfort_vs_truth.html
-Disallow: /articles/piKvm_diy.html
+Disallow: /articles/pikvm_diy.html
 Disallow: /articles/laptop_maintenance_guide.html
+Disallow: /articles/global_warming.html
 
 # Unnecessarybot may not crawl the site, all other bots may
 #User-agent: Unnecessarybot
