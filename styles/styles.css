@@ -208,12 +208,6 @@ main {
 }
 
 .herobutton {
-	position: absolute;
-	top: 62vh;
-	left: 5vw;
-	line-height: 1.7;
-	color: #f4f4f4;
-	padding-left: 4vw;
 }
 
 .herologomob {
