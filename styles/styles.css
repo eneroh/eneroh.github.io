@@ -202,6 +202,7 @@ main {
 	line-height: 1.7;
 	background-color: rgb(0 0 0 / 85%);
 	border-raidus: 10%;
+	padding-left: 5vw;
 }
 
 .herobutton {
@@ -210,7 +211,7 @@ main {
 	left: 5vw;
 	line-height: 1.7;
 	color: #f4f4f4;
-	padding-left: 5%;
+	padding-left: 5vw;
 }
 
 .herologomob {
