@@ -86,7 +86,7 @@ nav .active {
 }
 
 nav ul {
-	padding: 0;#171421
+	padding: #171421;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
