@@ -20,7 +20,7 @@
 #Disallow: /*.gif$
 
 # Disallow crawling of single web page
-#User-agent: *
+User-agent: *
 #Disallow: /articles/comfort_vs_truth.html
 Disallow: /articles/pikvm_diy.html
 Disallow: /articles/laptop_maintenance_guide.html
