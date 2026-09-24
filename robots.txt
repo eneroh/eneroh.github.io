@@ -51,4 +51,4 @@ Disallow: /articles/modern_table_design.html
 #User-agent: *
 #Disallow: /
 
-Sitemap: https://snopoint.com/sitemap.xml
+Sitemap: https://eneroh.com/sitemap.xml
